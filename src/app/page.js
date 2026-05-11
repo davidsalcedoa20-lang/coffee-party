@@ -152,10 +152,10 @@ export default function Home() {
       className="overflow-hidden rounded-3xl"
     >
       <img
-        src={`/images/cafe${i + 1}.JPG`}
+        src={`/images/cafe${i + 1}.jpg`}
         alt="Cafe"
         onClick={() =>
-          setSelectedImage(`/images/cafe${i + 1}.JPG`)
+          setSelectedImage(`/images/cafe${i + 1}.jpg`)
         }
         loading="lazy"
         className="w-full h-auto object-cover rounded-2xl hover:scale-[1.02] transition duration-700 cursor-pointer"
@@ -200,7 +200,7 @@ export default function Home() {
       <img
         src="/images/music1.jpg"
         alt="Music"
-        onClick={() => setSelectedImage("/images/music1.JPG")}
+        onClick={() => setSelectedImage("/images/music1.jpg")}
         className="w-full h-auto object-cover rounded-2xl hover:scale-[1.03] transition duration-700 cursor-pointer"
       />
     </div>
@@ -213,10 +213,10 @@ export default function Home() {
     {Array.from({ length: 6 }, (_, i) => (
       <div key={i} className="overflow-hidden rounded-3xl">
         <img
-          src={`/images/music${i + 2}.JPG`}
+          src={`/images/music${i + 2}.jpg`}
           alt="Music"
           onClick={() =>
-            setSelectedImage(`/images/music${i + 2}.JPG`)
+            setSelectedImage(`/images/music${i + 2}.jpg`)
           }
           loading="lazy"
           className="w-full h-auto object-cover rounded-2xl hover:scale-[1.03] transition duration-700 cursor-pointer"
@@ -265,7 +265,7 @@ export default function Home() {
       >
 
         <img
-          src={`/images/barista${i + 1}.JPG`}
+          src={`/images/barista${i + 1}.jpg`}
           alt="Barista"
           onClick={() =>
             setSelectedImage(`/images/barista${i + 1}.jpg`)
@@ -281,7 +281,7 @@ export default function Home() {
 </section>
 <section
   id="video"
-  className="bg-gradient-to-b from-black via-[#0a0a0a] to-black"
+  className="bg-black px-6 md:px-20 py-32"
 >
 
   <div className="mb-16">
