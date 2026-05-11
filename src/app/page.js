@@ -152,7 +152,7 @@ export default function Home() {
       className="overflow-hidden rounded-3xl"
     >
       <img
-        src={`/images/cafe${i + 1}.jpg`}
+        src={`/images/cafe${i + 1}.JPG`}
         alt="Cafe"
         onClick={() =>
           setSelectedImage(`/images/cafe${i + 1}.jpg`)
