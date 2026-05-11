@@ -13,13 +13,8 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Coffee Party 2026",
-  description: "Galería oficial del evento Coffee Party 2026",
-  openGraph: {
-    title: "Coffee Party 2026",
-    description: "Evento con café, música y experiencias únicas",
-    images: ["/images/preview.jpg"], // crea esta imagen
-  },
-}
+  description: "Galería oficial del evento Coffee Party 2026 con música, café y experiencias únicas",
+};
 
 export default function RootLayout({ children }) {
   return (
