@@ -200,7 +200,7 @@ export default function Home() {
       <img
         src="/images/music1.jpg"
         alt="Music"
-        onClick={() => setSelectedImage("/images/music1.jpg")}
+        onClick={() => setSelectedImage("/images/music1.JPG")}
         className="w-full h-auto object-cover rounded-2xl hover:scale-[1.03] transition duration-700 cursor-pointer"
       />
     </div>
@@ -213,10 +213,10 @@ export default function Home() {
     {Array.from({ length: 6 }, (_, i) => (
       <div key={i} className="overflow-hidden rounded-3xl">
         <img
-          src={`/images/music${i + 2}.jpg`}
+          src={`/images/music${i + 2}.JPG`}
           alt="Music"
           onClick={() =>
-            setSelectedImage(`/images/music${i + 2}.jpg`)
+            setSelectedImage(`/images/music${i + 2}.JPG`)
           }
           loading="lazy"
           className="w-full h-auto object-cover rounded-2xl hover:scale-[1.03] transition duration-700 cursor-pointer"
@@ -265,7 +265,7 @@ export default function Home() {
       >
 
         <img
-          src={`/images/barista${i + 1}.jpg`}
+          src={`/images/barista${i + 1}.JPG`}
           alt="Barista"
           onClick={() =>
             setSelectedImage(`/images/barista${i + 1}.jpg`)
