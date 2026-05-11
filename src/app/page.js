@@ -155,7 +155,7 @@ export default function Home() {
         src={`/images/cafe${i + 1}.JPG`}
         alt="Cafe"
         onClick={() =>
-          setSelectedImage(`/images/cafe${i + 1}.jpg`)
+          setSelectedImage(`/images/cafe${i + 1}.JPG`)
         }
         loading="lazy"
         className="w-full h-auto object-cover rounded-2xl hover:scale-[1.02] transition duration-700 cursor-pointer"
